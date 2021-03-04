@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92752E98-30EA-423E-B691-AEC5D98C2A13}"
+	ProjectSection(SolutionItems) = preProject
+		app.html = app.html
+		styleSheet.css = styleSheet.css
+		tesla.html = tesla.html
+		teslaStyleSheet.css = teslaStyleSheet.css
+		spaceX.html = spaceX.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{1B1AD71E-B47E-4EDF-999C-4424B67B34F5}"
+	ProjectSection(SolutionItems) = preProject
+		spaceXStyleSheet.css = spaceXStyleSheet.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B1AD71E-B47E-4EDF-999C-4424B67B34F5} = {92752E98-30EA-423E-B691-AEC5D98C2A13}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.HCI525Project FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="spaceXStyleSheet.css">
+    <Files>
+      <File FileName="app.html" Line="46" Column="70" />
+      <File FileName="tesla.html" Line="91" Column="142" />
+      <File FileName="teslaStyleSheet.css" Line="92" Column="45" />
+      <File FileName="spaceX.html" Line="122" Column="73" />
+      <File FileName="styleSheet.css" Line="10" Column="31" />
+      <File FileName="spaceXStyleSheet.css" Line="70" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HCI525Project" expanded="True">
+            <Node name="Solution Items" expanded="True">
+              <Node name="New Folder" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="./styleSheet.css" />
+<link rel="stylesheet" href="./spaceXStyleSheet.css" />
+
+<style>
+    body {
+    font-family: "Trebuchet MS", sans-serif;
+    }
+
+    .card-info {
+    margin: 5%;
+    }
+    .logo-flying {
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    animation: imgAni 20s infinite;
+    animation-direction: alternate;
+
+    }
+    .center-image {
+    width: 58%;
+    margin: 2% 0% 3% 18%;
+    border-radius: 20px;
+    }
+
+
+    .main-content-info {
+    margin: auto;
+    width: 80%;
+    }
+
+    @keyframes imgAni {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:blue; left:80%; top:0px;}
+    50%  {background-color:cadetblue; left:80%; top:10%;}
+    75%  {background-color:blue; left:0px; top:10%;}
+    100% {background-color:white; left:0px; top:0px;}
+    }
+
+    .grid-information {
+    grid-template-rows: 30% 30% 30%;
+    display: grid;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='.5' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    margin:2%;
+    }
+    .grid-columns {
+    margin:2%;
+    grid-template-columns: 7% 30%;
+    display: grid;
+
+    }
+    input[type=text] {
+    background-color: lightblue;
+    color: white;
+    }
+
+</style>
+
+<html>
+<body>
+    <img class="logo-flying" src="./Images/SpaceX/spaceX_logo.png" />
+    <div class="general information">
+        <div class="main-header" style="padding-top: 40px;">
+            <h1>SpaceX Top vehicles</h1>
+        </div>
+        <div class="main-content-info">
+            <div class="card-info">
+                <h3>1. Falcon 9 <i>Full Thrust</i> launch vehicle</h3>
+                <img class="center-image" src="./Images/SpaceX/falcon9.jpg" />
+                <p>
+                    Falcon 9 is a two-stage rocket specifically designed to transport satellites and SpaceX's Dragon spacecraft into orbit.
+                    The rocket is reusable meaning that costs for accessing space can be drastically reduced over the long run.
+
+                    It is <b>70 meters </b> tall, has a diameter of <b>3.7 meters</b>, and a mass of <b>549,054kg</b>. Each Falcon 9 rocket's first stage is powered by nine SpaceX's own Merlin engines, and its second stage a single Merlin vacuum rocket.
+                </p>
+                <hr />
+            </div>
+            <div class="card-info">
+                <h3>2. SpaceX's Dragon</h3>
+                <img class="center-image" src="./Images/SpaceX/dragon.jpg" />
+                <p>
+                    <a href="https://www.spacex.com/vehicles/dragon/">SpaceX's Dragon capsule </a>is a free-flying spacecraft to deliver both cargo and people to orbiting destinations. It is one of the only spacecraft in existence that can not only deliver, but also return significant payloads back to Earth.
+
+                    The <b>4m</b> diameter capsule currently only delivers cargo but is designed to carry human passengers too. It currently has a passenger capacity of 7 within its pressurized section.
+                </p>
+                <hr />
+            </div>
+            <div class="card-info">
+                <h3>3. Starship</h3>
+                <img class="center-image" src="./Images/SpaceX/starship.jpg" />
+                <p>
+                    The Starship prototype will descend under active aerodynamic control, accomplished by independent movement of two forward and two aft flaps on the vehicle. All four flaps are actuated by an onboard flight computer to control Starship’s attitude during flight and enable precise landing at the intended location. SN10’s Raptor engines will then reignite as the vehicle attempts a landing flip maneuver immediately before touching down on the landing pad adjacent to the launch mount.
+
+                </p>
+                <hr />
+            </div>
+
+            <div class="subscribe-form">
+                <h4> For more information</h4>
+                <form class="grid-information" onsubmit="showSnackBar()">
+                    <div class="grid-columns">
+                        <label for="fname">Name:</label>
+                        <input type="text" id="name" name="name" />
+                    </div>
+                    <div class="grid-columns">
+                        <label for="lname">Email:</label>
+                        <input type="text" id="email" name="email" />
+                    </div>
+                    <div style="margin:2%;">
+                        <input type="checkbox" id="agree" name="agree" value="" />
+                        <label for="agree"> I want to recieve emails on daily update</label>
+                        <input type="submit" value="Subscribe"  style=" width: 16%;
+                                                                        margin: 2% 0% 0% 14%;
+                                                                        display: block;
+                                                                        background-color: lightblue;
+                                                                        color: white;
+                                                                        border-radius: 20px;" />
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div id="snackbar">Thank you for Subscribing</div>
+        </div>
+
+    </div>
+    <script>
+        function showSnackBar() {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+    </script>
+</body>
+</html>
+
