@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff13b627-df00-4ad6-afe0-91bd0e4c684e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hyperloop.html" beforeDir="false" afterPath="$PROJECT_DIR$/hyperloop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615590270639</updated>
       <workItem from="1615590272265" duration="4203000" />
-      <workItem from="1615682795315" duration="295000" />
+      <workItem from="1615682795315" duration="842000" />
     </task>
     <servers />
   </component>
@@ -75,5 +75,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1615684300840">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1615684300840" />
   </component>
 </project>
