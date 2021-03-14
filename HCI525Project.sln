@@ -13,6 +13,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{1B1AD71E-B47E-4EDF-999C-4424B67B34F5}"
 	ProjectSection(SolutionItems) = preProject
 		spaceXStyleSheet.css = spaceXStyleSheet.css
+		paypal.html = paypal.html
 	EndProjectSection
 EndProject
 Global

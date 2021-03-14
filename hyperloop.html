@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="./styleSheet.css" />
+<link rel="stylesheet" href="./hyperloopStyleSheet.css" />
+
+
+<style>
+    .facts{
+        margin: 2%;
+    }
+    .main-header {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 3em;
+        letter-spacing: -2px;
+        border-bottom: 2px solid black;
+        text-transform: uppercase;
+    }
+</style>
+
+<html>
+<body>
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="#" onclick="window.open(location.href.replace('hyperloop.html', 'app.html'));
+                ">Home</a></li>
+            <li class="crumb">Hyperloop</a></li>
+        </ol>
+    </nav>
+
+    <section style="margin: 1% 5% 5% 5%">
+        <h1 class="main-header">Hyperloop</h1>
+
+        <h3>Hyperloop is a new form of ground transport currently in development by a number of companies, It could see passengers travelling at over 700 miles an hour in floating pod which races along inside giant low-pressure tubes, either above or below ground.
+        </h3>
+        <p>
+            <h2>
+                <a href="https://www.cnn.com/travel/article/how-long-hyperloop/index.html">
+                    <b>(CNN)</b>
+                </a>
+            </h2>
+        <h3>- The year is <em>2030</em>. You're in a sleek pod-like capsule that's levitating inside a low pressure steel tube and accelerating across the country at speeds of more than 600 miles per hour.
+            This is Hyperloop, the futuristic transportation method pitched by controversial US entrepreneur Elon Musk, drawing on 100-year-old principals updated for the 21st century.
+            Big companies are investing serious money into projects to get Hyperloop -- both literally and figuratively -- off the ground, with pilot tubes being erected in Dubai's deserts and futuristic pods unveiled in European warehouses.
+
+            With the news that Virgin Hyperloop One and Dubai-based supply chain firm, DP World, have got the green light by a state government in India to advance Hyperloop, the buzz around the new technology is stronger than ever.
+            Advocates say the technology's more sustainable than aviation and significantly faster than high-speed trains -- but is Hyperloop really a viable future transportation method and can the hurdles involved in making this concept a reality be surmounted?
+            In short, will we really be able to hop on one of these high tech vehicles any time soon?</h3>
+        </p>
+    </section>
+    <article class="slideshow-container facts">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop.png" style="width:100%; border-radius: 20px;">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop1.png" style="width:100%; border-radius: 20px;">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop3.png" style="width:100%; border-radius: 20px;">
+    </article>
+    <table id = "timeline">
+        <thead>
+        <tr>
+            <th colspan="2">Hyperloop timeline</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>October, 2018</td>
+            <td> <b>Designing the pod</b>: Come up with basic design for Hyperloop </td>
+        </tr>
+        <tr>
+            <td>November, 2018</td>
+            <td> <b>Preliminary Design Briefing</b>: Submit the design with simulation result</td>
+        </tr>
+        <tr>
+            <td>January, 2019</td>
+            <td> <b>Final Design Briefing</b>: Submit the design with detailed test result</td>
+        </tr>
+        <tr>
+            <td>March, 2019</td>
+            <td> <b>System Assembly Manufacturing</b>: Manufacturing of system complete</td>
+        </tr>
+        <tr>
+            <td>May, 2019</td>
+            <td> <b>Ready to go</b>: Final testing complete and pod is ready for the competition</td>
+        </tr>
+        </tbody>
+    </table>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        function myMap() {
+            var mapProp= {
+                center:new google.maps.LatLng(51.508742,-0.120850),
+                zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+</body>
+</html>
+

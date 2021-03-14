@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="./styleSheet.css" />
+
+<style>
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+        position: relative;
+        bottom: 174px
+    }
+    .facts{
+        margin: 2%;
+    }
+    .main-header {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 3em;
+        letter-spacing: -2px;
+        border-bottom: 2px solid black;
+        text-transform: uppercase;
+        margin: 2%;
+    }
+    .youtube-video {
+        position: relative;
+        float: right;
+        bottom: 200px;
+    }
+    .author::before { content: url('https://cdn1.bbcode0.com/uploads/2021/3/13/7187bb3339219d96a6b52df89b1d1ea8-full.png');
+                          margin-right: 21px;
+    }
+    .email::before {
+        content: url("https://cdn1.bbcode0.com/uploads/2021/3/13/b8552383544613b276a4b4b0ee6f0bb4-full.png");
+        margin-right: 21px;
+    }
+    .number::before {
+        content: url("https://cdn1.bbcode0.com/uploads/2021/3/13/b870f8511e3d88a8c0114adb77948d88-full.png");
+        margin-right: 21px;
+    }
+
+    footer {
+        margin-left: 20px;
+        position: relative;
+        bottom: 100px;
+        background: black;
+        font-family: "Trebuchet MS", sans-serif;
+        color: white;
+        font-size: 20px;    
+    }
+</style>
+
+<html>
+<body>
+    <section>
+        <h1 class="main-header">Paypal</h1>
+
+        <p style="margin: 2%">PayPal is a well-known digital payments platform used by businesses and consumers alike to conduct financial transactions around the world — via the web, mobile apps, or in person. With PayPal, you can pay bills, send and receive money, accept payments, and more.</p>
+
+    </section>
+
+    <section class="facts">
+
+        <h2 style="background: black; color: white;"> Some facts about Paypal</h2>
+        <ul>
+            <li>
+                More than 267 million active account holders
+            </li>
+            <li>
+                Available in more than 200 markets worldwide
+            </li>
+            <li>
+                Supports the receipt of 100+ currencies, fund withdrawals in 50+ currencies, and balance holdings in 25+ currencies
+            </li>
+            <li>
+                Founded in December 1998
+            </li>
+            <li>
+                Headquartered in San Jose, California
+            </li>
+            <li>
+                Owns other brands, including Braintree, Venmo, and Xoom
+            </li>
+            <li>
+                Provides financial support <b>($3.7M in 2017)</b> to nonprofits and charities annually
+            </li>
+        </ul>
+    </section>
+
+
+    <aside>
+        <p>Digital payment is a transaction that takes place via digital or online modes, with no physical exchange of money involved. This means that both parties, the payer and the payee, use electronic mediums to exchange money. Please note that digital payments can take place on the internet as well as on physical premises</p>
+    </aside>
+    <section class="facts" style="margin-top: 60px;">
+        <h2 style="background: black; color: white;"> Other Resources:</h2>
+
+        <figure>
+            <img style="width:28%" src="./Images/PayPal/paypal.png" alt="PayPal" style="width:100%">
+            <figcaption>Fig.1 - PayPal, to find out mor e<a href="https://www.paypal.com/us/home">click here</a></figcaption>
+        </figure>
+        <video width="400" height="300" controls class="youtube-video">
+            <source src="./Images/PayPal/paypalVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <iframe height="240px" width="30%" src="https://www.youtube.com/embed/WB370ewOklw" style="position: relative;
+        left: 34%;
+        bottom: 166px;">
+        </iframe>
+    </section>
+    <footer>
+        <address>
+        <p class="author">Author: Mairna Yousef</p>
+        <p class="email"><a href="mailto:hege@example.com">myousef@oswego.edu</a></p>
+        <p class="number">Phone number: 315-402-3607</p>
+        </address>
+    </footer>
+    <script></script>
+</body>
+</html>
+
