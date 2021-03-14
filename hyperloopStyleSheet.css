@@ -32,33 +32,12 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
 }
-.crumbs{
-    margin: 2%;
-}
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0;
-}
 
-.crumb {
-    display: inline-block;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-}
 
 #timeline {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    position: relative;
-    left: 55%;
-    bottom: 400px;
+    margin:2% auto;
 }
 
 #timeline td, #timeline th {
@@ -76,4 +55,28 @@ img {vertical-align: middle;}
     text-align: left;
     background-color: black;
     color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

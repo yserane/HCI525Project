@@ -4,66 +4,88 @@
 <link rel="stylesheet" href="./teslaStyleSheet.css">
 
 <style>
-    .grid-container {
-        grid-template-rows: 20% 50% auto;
+    .text-video-container{
+        width: 45%;
+        display: inline-block;
+        margin: 2%;
     }
-    .main-content {
-        grid-template-columns: 50% 50%;
-    }
-
 </style>
 
-<html>
+<html lang="en" xml:lang="en">
+<head>
+    <title>Tesla - Elon Musk</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tesla">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Mairna Yousef">
+</head>
 <body>
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="#" onclick="window.open(location.href.replace('tesla.html', 'index.html'));
+                    ">Home</a></li>
+            <li class="crumb">Tesla</a></li>
+        </ol>
+    </nav>
         <div class="main-header">
             <h1>Tesla</h1>
         </div>
-                <iframe height="600px" width="70%" src="https://www.youtube.com/embed/XB2g7-HgE_g" style=" position: relative; left: 14%;">
-                </iframe>
-                <div class="quote-container" style="margin: 2%;">
-                    <h2 class="header-quote">Top Quotes about tesla:</h2>
-                    <blockquote class="quote-class">
-                        <ul>
-                            <li>
-                                <q>
-                                    <i>As of 2016, the number of American car companies that haven't gone bankrupt is a grand total of two: Ford and Tesla.</i>
-                                </q>
+        <div class ="text-video-container" style="float: left">
+            <h3> Tesla commercial</h3>
+            <iframe height="400px" width="90%" src="https://www.youtube.com/embed/XB2g7-HgE_g">
+            </iframe>
+        </div>
+        <div class="text-video-container"  style="float: right">
+            <h3> How does Tesla's engine work?</h3>
+            <iframe height="400px" width="90%" src="https://www.youtube.com/embed/wvLmBfwmA04">
+            </iframe>
+        </div>
+        <div class="quote-container" style="margin: 2%;">
+            <img src = "Images/Tesla/tesla-svg.svg" width="20%" alt="tesla svg alt" />
+            <h2 class="header-quote" style="display: inline">Top Quotes about tesla:</h2>
+            <blockquote class="quote-class">
+                <ul>
+                    <li>
 
-                            </li>
-                            <li>
+                        <q>
+                            <i>As of 2016, the number of American car companies that haven't gone bankrupt is a grand total of two: Ford and Tesla.</i>
+                        </q>
 
-                                <q>
-                                    <i>We could definitely make a flying car – but that's not the hard part. The hard part is, how do you make a flying car that's super safe and quiet? Because if it's a howler, you're going to make people very unhappy</i>
-                                </q>
-                            </li>
-                            <li>
-                                <q>
-                                    <i>We will not stop until every car on the road is electric</i>
-                                </q>
-                            </li>
-                        </ul>
-                    </blockquote>
-                </div>
+                    </li>
+                    <li>
+
+                        <q>
+                            <i>We could definitely make a flying car – but that's not the hard part. The hard part is, how do you make a flying car that's super safe and quiet? Because if it's a howler, you're going to make people very unhappy</i>
+                        </q>
+                    </li>
+                    <li>
+                        <q>
+                            <i>We will not stop until every car on the road is electric</i>
+                        </q>
+                    </li>
+                </ul>
+            </blockquote>
+        </div>
             <div class="container" style="width: 70%;position: relative; left: 17%">
                 <!-- Full-width images with number text -->
                 <div class="mySlides">
                     <div class="numbertext">1 / 4</div>
-                    <img src="Images/Tesla/tesla5.png" style="width:100%">
+                    <img src="Images/Tesla/tesla5.png" style="width:100%" alt="tesla slider image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 4</div>
-                    <img src="Images/Tesla/tesla1.jpg" style="width:100%">
+                    <img src="Images/Tesla/tesla1.jpg" style="width:100%" alt="tesla slider image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 4</div>
-                    <img src="Images/Tesla/tesla3.jpg" style="width:100%">
+                    <img src="Images/Tesla/tesla3.jpg" style="width:100%" alt="tesla slider image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 4</div>
-                    <img src="Images/Tesla/tesla4.jpg" style="width:100%">
+                    <img src="Images/Tesla/tesla4.jpg" style="width:100%" alt="tesla slider image">
                 </div>
 
 
@@ -92,6 +114,30 @@
                     </div>
                 </div>
             </div>
+        <div class="tesla-engine-info" style="margin: 2%;">
+            <h1>Tesla Engine Facts</h1>
+            <h2>
+                Electrical "Horsepower"
+            </h2>
+            <p>
+                Defining electric power in terms of horsepower is not very intuitive. Kilowatts or Megawatts are a much more useful unit. Electricity alone can't generate physical motion the way a horse or a fuel-burning engine does. An electric motor converts electricity into motion. Think of electric power as flowing much like fuel flows from a tank to an engine. Various situations (low state of charge, cold temperatures, etc.) can reduce this flow of electrons below the ultimate capability of the electric motor. In other cases, the potential flow of electricity may exceed the capability of the electric motor (warm battery, short duration accelerations, etc.).
+            </p>
+            <h2>
+                Dual Motor vs. Single Motor <b>(P85 vs. P85D)</b>
+            </h2>
+            <p>
+                The shaft horsepower rating of the rear wheel drive single motor Model S is straightforward and roughly 360-470 hp depending on the variant (60, 85 or P85). Also, it is generally similar, but not the same, as the battery electrical "horsepower" output. The difference is most obvious to drivers when the battery is at a very low SoC. In this state, the chemical reactions generate less voltage and less equivalent horsepower, even though the physical electric motor hasn't changed. The maximum torque the electric motor(s) are capable of is nearly unchanged as the battery horsepower changes even though the maximum shaft horsepower is reduced as the battery horsepower reduces.
+            </p>
+            <h2>
+                All Wheel Drive 85D and 70D
+            </h2>
+            <p>
+                Where some confusion occurs is that in the 85D and 70D vehicles the combined motor shaft power is very similar to the battery electrical horsepower under many normal conditions. With the P85D the combined motor shaft power can often exceed the battery electrical horsepower available. The dual motors utilize the battery horsepower in the widest variety of real world conditions. The true measures for any performance EV driver are acceleration times and driving performance of the vehicle.
+
+            </p>
+            <strong>Reference: <i>Tesla All Wheel Drive (Dual Motor) Power and Torque Specifications</i> by JB Straubel, Chief Technical Officer, 2015.(For more info <a href="https://www.tesla.com/blog/tesla-all-wheel-drive-dual-motor-power-and-torque-specifications">click here</a>)</strong>
+
+        </div>
     <script>
         var slideIndex = 1;
         showSlides(slideIndex);

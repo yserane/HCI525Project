@@ -17,7 +17,10 @@
     }
 </style>
 
-<html>
+<html lang="en" xml:lang="en">
+<head>
+    <title>Hyperloop - Elon Musk</title>
+</head>
 <body>
     <nav class="crumbs">
         <ol>
@@ -29,7 +32,6 @@
 
     <section style="margin: 1% 5% 5% 5%">
         <h1 class="main-header">Hyperloop</h1>
-
         <h3>Hyperloop is a new form of ground transport currently in development by a number of companies, It could see passengers travelling at over 700 miles an hour in floating pod which races along inside giant low-pressure tubes, either above or below ground.
         </h3>
         <p>
@@ -47,10 +49,10 @@
             In short, will we really be able to hop on one of these high tech vehicles any time soon?</h3>
         </p>
     </section>
-    <article class="slideshow-container facts">
-        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop.png" style="width:100%; border-radius: 20px;">
-        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop1.png" style="width:100%; border-radius: 20px;">
-        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop3.png" style="width:100%; border-radius: 20px;">
+    <article class="slideshow-container facts" style="margin: auto;">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop1.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
+        <img class="mySlides fade" src="./Images/Hyperloop/hyperloop3.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
     </article>
     <table id = "timeline">
         <thead>
@@ -81,8 +83,21 @@
         </tr>
         </tbody>
     </table>
-    <div id="googleMap" style="width:100%;height:400px;"></div>
-
+    <div style="position: relative;
+    left: 39%;
+    margin: 5%;">
+        <label for="file">Complete progress so far:</label>
+        <progress id="file" value="70" max="100"> 70% </progress>
+    </div>
+    <div style="position: relative; left: 32%; margin: 5%;">
+        <span class = "tooltip"><strong>Now listen to Elon Musk talking about hyperloop
+        <span class="tooltiptext">You can find the original video <a href="https://www.youtube.com/watch?v=bQcfi8HK1i8&t=3s">here</a></span>
+        </strong></span>
+        <audio controls>
+            <source src="./Images/Hyperloop/videoplayback.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
     <script>
         var slideIndex = 0;
         showSlides();
@@ -97,15 +112,7 @@
             slides[slideIndex-1].style.display = "block";
             setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
-        function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(51.508742,-0.120850),
-                zoom:5,
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 </body>
 </html>
