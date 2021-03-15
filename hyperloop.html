@@ -1,32 +1,48 @@
 ﻿<!DOCTYPE html>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-<link rel="stylesheet" href="./styleSheet.css" />
-<link rel="stylesheet" href="./hyperloopStyleSheet.css" />
-
-
-<style>
-    .facts{
-        margin: 2%;
-    }
-    .main-header {
-        font-family: "Trebuchet MS", sans-serif;
-        font-size: 3em;
-        letter-spacing: -2px;
-        border-bottom: 2px solid black;
-        text-transform: uppercase;
-    }
-</style>
-
 <html lang="en" xml:lang="en">
 <head>
     <title>Hyperloop - Elon Musk</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./styleSheet.css" />
+    <link rel="stylesheet" href="./hyperloopStyleSheet.css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Hyperloop - Elon Musk">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Mairna Yousef">
+    <style>
+        .facts{
+            margin: 2%;
+        }
+        .main-header {
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 3em;
+            letter-spacing: -2px;
+            border-bottom: 2px solid black;
+            text-transform: uppercase;
+        }
+    </style>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
 </head>
 <body>
     <nav class="crumbs">
         <ol>
             <li class="crumb"><a href="#" onclick="window.open(location.href.replace('hyperloop.html', 'index.html'));
                 ">Home</a></li>
-            <li class="crumb">Hyperloop</a></li>
+            <li class="crumb">Hyperloop</li>
         </ol>
     </nav>
 
@@ -34,26 +50,25 @@
         <h1 class="main-header">Hyperloop</h1>
         <h3>Hyperloop is a new form of ground transport currently in development by a number of companies, It could see passengers travelling at over 700 miles an hour in floating pod which races along inside giant low-pressure tubes, either above or below ground.
         </h3>
-        <p>
-            <h2>
-                <a href="https://www.cnn.com/travel/article/how-long-hyperloop/index.html">
-                    <b>(CNN)</b>
-                </a>
-            </h2>
-        <h3>- The year is <em>2030</em>. You're in a sleek pod-like capsule that's levitating inside a low pressure steel tube and accelerating across the country at speeds of more than 600 miles per hour.
-            This is Hyperloop, the futuristic transportation method pitched by controversial US entrepreneur Elon Musk, drawing on 100-year-old principals updated for the 21st century.
-            Big companies are investing serious money into projects to get Hyperloop -- both literally and figuratively -- off the ground, with pilot tubes being erected in Dubai's deserts and futuristic pods unveiled in European warehouses.
+        <h2>
+            <a href="https://www.cnn.com/travel/article/how-long-hyperloop/index.html">
+                <b>(CNN)</b>
+            </a>
+        </h2>
+        <p>- The year is <em>2030</em>. You're in a sleek pod-like capsule that's levitating inside a low pressure steel tube and accelerating across the country at speeds of more than 600 miles per hour.
+        This is Hyperloop, the futuristic transportation method pitched by controversial US entrepreneur Elon Musk, drawing on 100-year-old principals updated for the 21st century.
+        Big companies are investing serious money into projects to get Hyperloop -- both literally and figuratively -- off the ground, with pilot tubes being erected in Dubai's deserts and futuristic pods unveiled in European warehouses.
 
-            With the news that Virgin Hyperloop One and Dubai-based supply chain firm, DP World, have got the green light by a state government in India to advance Hyperloop, the buzz around the new technology is stronger than ever.
-            Advocates say the technology's more sustainable than aviation and significantly faster than high-speed trains -- but is Hyperloop really a viable future transportation method and can the hurdles involved in making this concept a reality be surmounted?
-            In short, will we really be able to hop on one of these high tech vehicles any time soon?</h3>
-        </p>
+        With the news that Virgin Hyperloop One and Dubai-based supply chain firm, DP World, have got the green light by a state government in India to advance Hyperloop, the buzz around the new technology is stronger than ever.
+        Advocates say the technology's more sustainable than aviation and significantly faster than high-speed trains -- but is Hyperloop really a viable future transportation method and can the hurdles involved in making this concept a reality be surmounted?
+        In short, will we really be able to hop on one of these high tech vehicles any time soon?</p>
+
     </section>
-    <article class="slideshow-container facts" style="margin: auto;">
+    <div class="slideshow-container facts" style="margin: auto;">
         <img class="mySlides fade" src="./Images/Hyperloop/hyperloop.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
         <img class="mySlides fade" src="./Images/Hyperloop/hyperloop1.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
         <img class="mySlides fade" src="./Images/Hyperloop/hyperloop3.png" style="width:100%; border-radius: 20px;" alt="hyperloop slide photo">
-    </article>
+    </div>
     <table id = "timeline">
         <thead>
         <tr>
@@ -86,7 +101,7 @@
     <div style="position: relative;
     left: 30%;
     margin: 5%;">
-        <label for="file">Complete progress of <b>Hyperloop</b> project so far:</label>
+        <span>Complete progress of <b>Hyperloop</b> project so far:</span>
         <progress id="file" value="70" max="100"> 70% </progress>
     </div>
     <div style="position: relative; left: 30%; margin: 5%;">
@@ -98,22 +113,6 @@
             Your browser does not support the audio tag.
         </audio>
     </div>
-    <script>
-        var slideIndex = 0;
-        showSlides();
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-    </script>
-
 </body>
 </html>
 
